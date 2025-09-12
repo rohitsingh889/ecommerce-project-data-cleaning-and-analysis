@@ -1,2 +1,1 @@
-# ecommerce-project-data-cleaning-and-analysis
-“E-commerce Sales Data Analysis Project: This project involves cleaning, transforming, and analyzing a multi-table e-commerce dataset from Olist, a Brazilian marketplace. Using Python (Pandas, Seaborn, Matplotlib) and PostgreSQL, I performed extensive data wrangling, handled missing values, duplicates, and outliers, and engineered new features. I conducted exploratory data analysis to uncover insights on customer behavior, product performance, and delivery efficiency, and prepared the dataset for dashboard visualization in Power BI."
+
