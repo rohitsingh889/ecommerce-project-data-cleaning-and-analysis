@@ -46,4 +46,28 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
   - Customer behavior dashboard  
   - Delivery efficiency dashboard
 
+## Tools & Libraries
+
+- **Python**: pandas, numpy, matplotlib, seaborn
+- **SQL**: PostgreSQL
+- **BI**: Power BI
+- **Other**: Kaggle API, gdown
+
+## Insights
+
+- Analyze trends in e-commerce sales across products, regions, and customer segments to understand distribution and performance.
+- Identify the most frequent products, top-selling categories, and customer purchasing behavior to highlight business patterns.
+- Examine delivery times, late orders, and payment methods to assess operational efficiency.
+- Provide actionable insights for data-driven decision-making in product strategy, marketing, and logistics.
+
+## Author
+
+**Rohit Raj Singh**  
+This project is part of my portfolio, demonstrating practical SQL and data analysis skills applied to real-world datasets. It highlights key techniques such as **data exploration, aggregation, filtering, joins, window functions, and advanced querying**.
+
+This work reflects the kind of SQL and data analysis expertise essential for **data analyst and business intelligence roles**.
+
+If you have any questions, suggestions, or are interested in collaborating, I’d love to hear from you—feel free to reach out!
+
+**LinkedIn:** [Connect with me professionally](https://www.linkedin.com/in/rohit-raj-singh-3030172a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
