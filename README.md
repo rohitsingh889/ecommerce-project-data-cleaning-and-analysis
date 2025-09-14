@@ -29,6 +29,11 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 - Standardized categorical columns (e.g., state codes, product categories).  
 - Corrected inconsistent date formats and removed outliers in numerical columns.
 
+## 🗂️ Data Cleaning Steps..
+
+![Data Cleaning Steps](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/schema.png)
+
+
 ### 2. Data Transformation
 - Calculated **delivery time**: difference between order purchase and delivery dates.  
 - Calculated **order approval time**: difference between order creation and approval.  
