@@ -16,6 +16,11 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 - **License**: Public  
 - **Description**: This dataset contains multiple tables representing customers, orders, payments, products, sellers, reviews, and geolocation data for a Brazilian e-commerce platform. It is ideal for analyzing sales trends, customer behavior, and logistics performance.
 
+## 🗂️ Database Schema
+
+![Database Schema](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/schema.png)
+
+
 ## Summary of Operations
 
 ### 1. Data Cleaning
