@@ -61,24 +61,20 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 - Provide actionable insights for data-driven decision-making in product strategy, marketing, and logistics.
 
 ## Author
-Rohit Raj Singh
-This project is part of my portfolio, showcasing data engineering skills applied to the Olist Brazilian E-commerce Dataset.
+
+**Rohit Raj Singh**  
+This project is part of my portfolio, showcasing **data engineering skills** applied to the [Olist Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_source=chatgpt.com).
 
 It demonstrates practical experience in:
 
-Data ingestion of multiple raw CSV datasets (orders, customers, products, payments, reviews).
+* **Data ingestion** of multiple raw CSV datasets (orders, customers, products, payments, reviews).  
+* **Data cleaning & transformation** (handling missing values, duplicates, outliers, feature creation).  
+* **Building a structured data pipeline** from raw files to a cleaned, analysis-ready format.  
+* **Exploratory Data Analysis (EDA)** to validate data quality and extract trends.  
+* **Loading into PostgreSQL** as a data warehouse schema (fact and dimension tables).  
+* **SQL querying & aggregations** to support analytics and business insights.  
 
-Data cleaning & transformation (handling missing values, duplicates, outliers, feature creation).
-
-Building a structured data pipeline from raw files to a cleaned, analysis-ready format.
-
-Exploratory Data Analysis (EDA) to validate data quality and extract trends.
-
-Loading into PostgreSQL as a data warehouse schema (fact and dimension tables).
-
-SQL querying & aggregations to support analytics and business insights.
-
-This work reflects the type of end-to-end data engineering expertise needed to design, clean, transform, and deliver data pipelines that power analytics and business intelligence solutions.
+This work reflects the type of **end-to-end data engineering expertise** needed to design, clean, transform, and deliver data pipelines that power analytics and business intelligence solutions.  
 
 If you have any questions, suggestions, or are interested in collaborating, I’d love to connect—feel free to reach out!
 
