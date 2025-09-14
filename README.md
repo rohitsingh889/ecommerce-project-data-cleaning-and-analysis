@@ -31,7 +31,7 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 
 ## 🗂️ Data Cleaning Steps..
 
-![Data Cleaning Steps](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/schema.png)
+![Data Cleaning Steps](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/End-to-End-Data-Cleansing-infographics.png)
 
 
 ### 2. Data Transformation
