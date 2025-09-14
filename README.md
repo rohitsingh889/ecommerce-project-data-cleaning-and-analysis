@@ -1,5 +1,5 @@
 # E-commerce Sales Data Analysis Project
-
+![Logo](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/logo.webp)
 ## Project Overview
 This project focuses on cleaning, transforming, and analyzing a multi-table e-commerce dataset from **Olist**, a Brazilian marketplace. The goal is to uncover insights about **customer behavior, product performance, and delivery efficiency** through Python-based data wrangling, feature engineering, and exploratory data analysis (EDA). The cleaned dataset is also ready for dashboard visualization in **Power BI**.
 
