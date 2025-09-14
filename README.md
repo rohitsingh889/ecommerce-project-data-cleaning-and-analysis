@@ -49,6 +49,9 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 - **Delivery Analysis**: Average delivery times, late deliveries by state, correlation with product type.  
 - **Visualizations**: Bar plots, heatmaps, boxplots, and line charts using Seaborn and Matplotlib.
 
+![Logo2](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/logo2.png)
+
+
 ### 4. Data Storage & Dashboard Preparation
 - Loaded cleaned and transformed data into **PostgreSQL** for further querying.  
 - Prepared datasets for **Power BI dashboards**:
