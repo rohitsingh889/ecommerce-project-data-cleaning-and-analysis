@@ -96,7 +96,7 @@ These queries are **dashboard-ready** and support analytics for business decisio
 > Note: All queries are written for **PostgreSQL** and are part of the ETL + analytics workflow in the project.
 
 ### 6. Dashboard Preparation
-
+The cleaned and transformed datasets are fully prepared and ready for creating interactive dashboards in Power BI.
 - **Power BI Dashboards**:
   - Product Performance
   - Customer Behavior
@@ -114,10 +114,12 @@ These queries are **dashboard-ready** and support analytics for business decisio
 ### ETL Engine Imports
 
 
-### Python libraries used for ETL
-import pandas as pd          # Data manipulation and analysis
-import psycopg2              # PostgreSQL database connection
-from sqlalchemy import create_engine  # Database engine for SQL operations
+### ETL Libraries & Tools
+
+- pandas          # Data manipulation and analysis
+- psycopg2        # PostgreSQL database connection
+- SQLAlchemy      # Database engine for SQL operations
+
 
 
 
@@ -127,7 +129,8 @@ from sqlalchemy import create_engine  # Database engine for SQL operations
 - Analyze **delivery performance** to optimize logistics and reduce delays.  
 - Examine **payment method trends** and customer retention patterns.  
 - Measure **freight costs, return rates, and repeat purchase behavior**.  
-- Provide **data-driven recommendations** for sales, marketing, and operational improvements.  
+- Provide **data-driven recommendations** for sales, marketing, and operational improvements.
+- The cleaned and transformed datasets are fully prepared and ready for creating interactive dashboards in Power BI
 - Support creation of **Power BI dashboards** for business intelligence and visual analytics.
 
 ## Author
