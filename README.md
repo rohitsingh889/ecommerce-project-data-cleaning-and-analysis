@@ -1,15 +1,20 @@
 # E-commerce Sales Data Analysis Project
 ![Logo](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/logo.webp)
 ## Project Overview
-This project focuses on cleaning, transforming, and analyzing a multi-table e-commerce dataset from **Olist**, a Brazilian marketplace. The goal is to uncover insights about **customer behavior, product performance, and delivery efficiency** through Python-based data wrangling, feature engineering, and exploratory data analysis (EDA). The cleaned dataset is also ready for dashboard visualization in **Power BI**.
+This project focuses on **cleaning, transforming, and analyzing a multi-table e-commerce dataset from Olist**, a Brazilian marketplace. The goal is to uncover insights about **customer behavior, product performance, and delivery efficiency** through **Python-based data wrangling, feature engineering, and exploratory data analysis (EDA)**.  
+
+Additionally, a **basic ETL pipeline** has been implemented to load the cleaned data into **PostgreSQL**, making it **ready for advanced SQL queries, aggregations, and interactive dashboards in Power BI**.  
+
+During the project, I also **designed, wrote, and solved 40+ SQL queries** covering analytics, aggregations, delivery performance, sales trends, and customer insights.
+
 
 ## Features
-- **Data Cleaning**: Handled missing values, duplicates, inconsistencies, and outliers to ensure data quality.  
-- **Data Transformation**: Created new features such as delivery time, approval time, and aggregated sales data by product and region.  
-- **Exploratory Data Analysis (EDA)**: Visualized sales trends, customer behavior, product performance, and delivery efficiency using **Seaborn** and **Matplotlib**.  
-- **Data Storage**: Prepared datasets for PostgreSQL, enabling queries, aggregations, and integration with BI tools.  
-- **Dashboard Ready**: Cleaned and structured dataset ready for interactive dashboards in Power BI.  
-
+- **Data Cleaning**: Removed duplicates, handled missing values, standardized categorical columns, and addressed inconsistencies and outliers.  
+- **Data Transformation**: Calculated delivery times, order approval times, and aggregated sales metrics by product, seller, and region.  
+- **Exploratory Data Analysis (EDA)**: Visualized trends using **Seaborn** and **Matplotlib**, including sales, customer behavior, product performance, and delivery efficiency.  
+- **Data Storage & ETL**: Implemented a **basic ETL pipeline** to ingest CSV data, transform it, and load into **PostgreSQL** for querying and dashboarding.  
+- **SQL Analytics**: 40+ queries solving insights for sales, customers, deliveries, products, payments, and reviews.  
+- **Dashboard Ready**: Cleaned and structured dataset ready for **Power BI** dashboards.
 ## Dataset Details
 - **Source**: [Kaggle - Olist Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 - **Format**: CSV  
@@ -20,6 +25,12 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 
 ![Database Schema](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/schema.png)
 
+**Highlights:**
+- Fact tables: `orders`, `order_items`, `payments`
+- Dimension tables: `customers`, `products`, `sellers`, `reviews`
+- Proper **foreign key relationships** ensure referential integrity.
+
+---
 
 ## Summary of Operations
 
@@ -51,13 +62,48 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 
 ![Logo2](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/logo2.png)
 
+### 4. ETL Pipeline
 
-### 4. Data Storage & Dashboard Preparation
-- Loaded cleaned and transformed data into **PostgreSQL** for further querying.  
-- Prepared datasets for **Power BI dashboards**:
-  - Product performance dashboard  
-  - Customer behavior dashboard  
-  - Delivery efficiency dashboard
+The project includes a **basic ETL (Extract, Transform, Load) pipeline** designed to handle multiple CSV datasets and prepare them for analytics and dashboarding.  
+
+**Pipeline Overview:**
+
+- **Extract**: Raw CSV files containing customers, orders, order items, payments, products, sellers, and reviews are loaded into memory for processing.  
+
+- **Transform**: 
+  - Data cleaning is applied, including removal of duplicates, handling missing values, and standardizing categorical columns.  
+  - Feature engineering is performed to calculate delivery time, order approval time, total sales per product, revenue per seller, and customer order frequency.  
+  - Tables are merged to create a **master dataset** suitable for analysis and dashboarding.  
+
+- **Load**: The cleaned and transformed datasets are prepared to be loaded into a **PostgreSQL database** with proper table structures and foreign key relationships. This ensures referential integrity and enables SQL analytics and integration with Power BI dashboards.  
+
+The ETL pipeline is reusable and can ingest new data, making it **scalable and suitable for production-ready workflows**.
+
+### 5. SQL Analytics
+
+The project includes **40+ SQL queries** designed and solved to extract actionable insights from the e-commerce dataset.  
+
+Key areas covered by the queries:
+
+- **Top product categories, sellers, and cities**  
+- **Payment type and revenue analysis**  
+- **Average delivery time, order approval time, and order value**  
+- **Review score distribution and repeat customers**  
+- **Freight cost, return rate, and orders involving multiple sellers**  
+
+These queries are **dashboard-ready** and support analytics for business decision-making in **product strategy, marketing, and logistics**.  
+
+> Note: All queries are written for **PostgreSQL** and are part of the ETL + analytics workflow in the project.
+
+### 6. Dashboard Preparation
+
+- **Power BI Dashboards**:
+  - Product Performance
+  - Customer Behavior
+  - Delivery Efficiency
+
+- Aggregated metrics feed into **interactive visualizations** such as maps, KPIs, line charts, and bar charts.
+
 
 ## Tools & Libraries
 
@@ -65,27 +111,39 @@ This project focuses on cleaning, transforming, and analyzing a multi-table e-co
 - **SQL**: PostgreSQL
 - **BI**: Power BI
 - **Other**: Kaggle API, gdown
+### ETL Engine Imports
 
-## Insights
 
-- Analyze trends in e-commerce sales across products, regions, and customer segments to understand distribution and performance.
-- Identify the most frequent products, top-selling categories, and customer purchasing behavior to highlight business patterns.
-- Examine delivery times, late orders, and payment methods to assess operational efficiency.
-- Provide actionable insights for data-driven decision-making in product strategy, marketing, and logistics.
+### Python libraries used for ETL
+import pandas as pd          # Data manipulation and analysis
+import psycopg2              # PostgreSQL database connection
+from sqlalchemy import create_engine  # Database engine for SQL operations
+
+
+
+### Insights
+
+- Identify **top-selling products, revenue-driving categories, and high-value customers**.  
+- Analyze **delivery performance** to optimize logistics and reduce delays.  
+- Examine **payment method trends** and customer retention patterns.  
+- Measure **freight costs, return rates, and repeat purchase behavior**.  
+- Provide **data-driven recommendations** for sales, marketing, and operational improvements.  
+- Support creation of **Power BI dashboards** for business intelligence and visual analytics.
 
 ## Author
 
 **Rohit Raj Singh**  
 This project is part of my portfolio, showcasing **data engineering skills** applied to the [Olist Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_source=chatgpt.com).
 
-It demonstrates practical experience in:
+This project demonstrates practical experience in:
 
 * **Data ingestion** of multiple raw CSV datasets (orders, customers, products, payments, reviews).  
-* **Data cleaning & transformation** (handling missing values, duplicates, outliers, feature creation).  
-* **Building a structured data pipeline** from raw files to a cleaned, analysis-ready format.  
-* **Exploratory Data Analysis (EDA)** to validate data quality and extract trends.  
-* **Loading into PostgreSQL** as a data warehouse schema (fact and dimension tables).  
-* **SQL querying & aggregations** to support analytics and business insights.  
+* **Data cleaning & transformation**: handling missing values, duplicates, outliers, and creating new features (e.g., delivery time, approval time, aggregated sales metrics).  
+* **Building a structured data pipeline**: ETL workflow that transforms raw files into a cleaned, analysis-ready format.  
+* **Loading into PostgreSQL**: inserting transformed data into a data warehouse schema with fact and dimension tables.  
+* **Exploratory Data Analysis (EDA)**: visualizing sales trends, customer behavior, and delivery efficiency to validate data quality and extract actionable insights.  
+* **SQL querying & aggregations**: writing 40+ SQL queries to support analytics, reporting, and Power BI dashboards for business decision-making.  
+* **Dashboard preparation**: preparing datasets for interactive visualizations, KPIs, and trend analysis in Power BI.
 
 This work reflects the type of **end-to-end data engineering expertise** needed to design, clean, transform, and deliver data pipelines that power analytics and business intelligence solutions.  
 
