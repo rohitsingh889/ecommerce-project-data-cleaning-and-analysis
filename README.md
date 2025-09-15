@@ -102,6 +102,8 @@ The cleaned and transformed datasets are fully prepared and ready for creating i
   - Customer Behavior
   - Delivery Efficiency
 
+-Power-BI schema of the datasets....
+![Screenshot](https://github.com/rohitsingh889/ecommerce-project-data-cleaning-and-analysis/blob/main/Screenshot%202025-09-15%20153628.png)
 
 
 
