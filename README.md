@@ -7,6 +7,9 @@ Additionally, a **basic ETL pipeline** has been implemented to load the cleaned 
 
 During the project, I also **designed, wrote, and solved 40+ SQL queries** covering analytics, aggregations, delivery performance, sales trends, and customer insights.
 
+## Project Motivation
+The goal of this project is to simulate a real-world data engineering workflow by transforming raw e-commerce data into a structured format suitable for analytics and dashboards. 
+It demonstrates the end-to-end process of data cleaning, transformation, loading, and visualization to extract actionable business insights.
 
 ## Features
 - **Data Cleaning**: Removed duplicates, handled missing values, standardized categorical columns, and addressed inconsistencies and outliers.  
@@ -134,6 +137,13 @@ The cleaned and transformed datasets are fully prepared and ready for creating i
 - Provide **data-driven recommendations** for sales, marketing, and operational improvements.
 - The cleaned and transformed datasets are fully prepared and ready for creating interactive dashboards in Power BI
 - Support creation of **Power BI dashboards** for business intelligence and visual analytics.
+
+### Skills Demonstrated
+- **Python**: pandas, numpy, matplotlib, seaborn for data wrangling and visualization
+- **SQL**: PostgreSQL queries for analytics, aggregations, and reporting
+- **ETL & Data Engineering**: building reusable pipelines, data cleaning, feature engineering
+- **BI Tools**: Power BI dashboard preparation and interactive visualization
+
 
 ## Author
 
