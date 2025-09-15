@@ -102,7 +102,7 @@ The cleaned and transformed datasets are fully prepared and ready for creating i
   - Customer Behavior
   - Delivery Efficiency
 
-- Aggregated metrics feed into **interactive visualizations** such as maps, KPIs, line charts, and bar charts.
+
 
 
 ## Tools & Libraries
